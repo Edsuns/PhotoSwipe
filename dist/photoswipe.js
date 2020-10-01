@@ -1,6 +1,6 @@
-/*! PhotoSwipe - v4.1.3 - 2019-01-08
+/*! PhotoSwipe - v4.1.4 - 2020-10-02
 * http://photoswipe.com
-* Copyright (c) 2019 Dmitry Semenov; */
+* Copyright (c) 2020 Dmitry Semenov; */
 (function (root, factory) { 
 	if (typeof define === 'function' && define.amd) {
 		define(factory);
@@ -3229,7 +3229,7 @@ _registerModule('Tap', {
 				return;
 			}
 
-			if(!_moved && !_isMultitouch && !_numAnimations) {
+			if(!_moved && !_isMultitouch && !_numAnimations && self.container.contains(e.target)) {
 				var p0 = releasePoint;
 				if(tapTimer) {
 					clearTimeout(tapTimer);

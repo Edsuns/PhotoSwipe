@@ -139,7 +139,10 @@ module.exports = function(grunt) {
         preserveComments: /^!/i
       },
       options: {
-        preserveComments: /^!/i
+        preserveComments: /^!/i,
+        output: {
+          comments: /^!/
+        }
       }
     },
 
@@ -155,7 +158,9 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          "website/site-assets/all.min.css": ["website/site-assets/site.css", "website/dist/photoswipe.css"]
+          "website/site-assets/all.min.css": ["website/site-assets/site.css", "website/dist/photoswipe.css"],
+          'dist/default-skin/default-skin.min.css': ['dist/default-skin/default-skin.css'],
+          'dist/photoswipe.min.css': ['dist/photoswipe.css']
         }
       }
     },

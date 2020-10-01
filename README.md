@@ -13,10 +13,10 @@ JavaScript image gallery for mobile and desktop.
 
 ## Location of files
 
-- Compiled PhotoSwipe JS and CSS files, SVG and PNG sprites are in the [dist/](https://github.com/dimsemenov/PhotoSwipe/tree/master/dist) folder.
-- Source files (.JS and .SCSS) are in the [src/](https://github.com/dimsemenov/PhotoSwipe/tree/master/src) folder.  Note that PhotoSwipe uses Autoprefixer when compiling SASS files.
-- Demo website is in the [website/](https://github.com/dimsemenov/PhotoSwipe/tree/master/website) folder.
-- Documentation markdown files are in [website/documentation/](https://github.com/dimsemenov/PhotoSwipe/tree/master/website/documentation).
+- Compiled PhotoSwipe JS and CSS files, SVG and PNG sprites are in the [dist/](https://github.com/Edsuns/PhotoSwipe/tree/master/dist) folder.
+- Source files (.JS and .SCSS) are in the [src/](https://github.com/Edsuns/PhotoSwipe/tree/master/src) folder.  Note that PhotoSwipe uses Autoprefixer when compiling SASS files.
+- Demo website is in the [website/](https://github.com/Edsuns/PhotoSwipe/tree/master/website) folder.
+- Documentation markdown files are in [website/documentation/](https://github.com/Edsuns/PhotoSwipe/tree/master/website/documentation).
 
 ## Plugins / extensions / addons
 
@@ -40,15 +40,15 @@ To compile PhotoSwipe by yourself, make sure that you have [Node.js](http://node
 
 1) Clone the repository
 
-	git clone https://github.com/dimsemenov/PhotoSwipe.git
+	`git clone https://github.com/Edsuns/PhotoSwipe.git`
 
 2) Go inside the PhotoSwipe folder that you fetched and install Node dependencies
 
-	cd PhotoSwipe && npm install
+	`cd PhotoSwipe && npm install`
 
 3) Run `grunt` to generate the JS and CSS files in the `dist` folder and the site in the `_site/` folder
 
-	grunt
+	`grunt`
 
 Optionally:
 
